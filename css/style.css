@@ -1,0 +1,322 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:,300,regular,600,700&display=swap&subset=cyrillic-ext);
+
+/* &display=swap&subset=cyrillic-ext */
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBlack.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Poppins", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+.practice_2 {
+	width: 100%;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	background-color: lightgrey;
+}
+
+.task_one {
+	background-color: #fff;
+	max-width: 500px;
+	height: 500px;
+	border-radius: 10px;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-right: 40px;
+	text-align: left;
+	margin-bottom: 50px;
+	box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+}
+.task1_h3 {
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 62px;
+	letter-spacing: 0.8px;
+	color: #323232;
+	margin-bottom: 15px;
+}
+.task_one p {
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #323232;
+	margin-bottom: 15px;
+}
+.task1_button {
+	width: 172px;
+	height: 58px;
+	background: #f78434;
+	border-radius: 29px;
+	padding-left: 40px;
+	padding-top: 15px;
+}
+/* Не учили, чисто ради теста :) */
+.task1_button:hover {
+	filter: drop-shadow(0px 8px 16px rgba(201, 198, 13, 0.39)) drop-shadow(0px 16px 24px rgba(150, 211, 9, 0.2));
+}
+.task1_a {
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.task_two {
+	max-width: 540px;
+	height: 365px;
+	background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 40px;
+	margin-bottom: 50px;
+	box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+}
+.task_two p {
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #323232;
+	padding-left: 85px;
+	padding-right: 85px;
+	margin-bottom: 25px;
+}
+.task2_img {
+	margin-bottom: 15px;
+}
+.task2_h3 {
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 63px;
+	letter-spacing: 0.8px;
+	color: #323232;
+}
+.task2_button {
+	display: inline-block;
+	width: 172px;
+	height: 58px;
+	background-color: #fff;
+	border-radius: 29px;
+	padding-top: 15px;
+}
+.task2_a {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #f78434;
+}
+
+.task_third {
+	background-color: #fff;
+	max-width: 350px;
+	height: 425px;
+	border-radius: 10px;
+	box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+}
+.task_third:hover {
+	filter: drop-shadow(0px 10px 52px rgba(0, 0, 0, 0.08));
+}
+.task_third p {
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #323232;
+	text-align: left;
+	padding-left: 29px;
+	margin-bottom: 23px;
+}
+.task3_img {
+	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 31px;
+}
+.task3_h3 {
+	padding-left: 29px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.6px;
+	color: #323232;
+}
+.task3_a {
+	padding-left: 29px;
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #58bebf;
+}
+
+.task3_a:hover {
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #f78434;
+}
+
+/* -------------------------- */
+
+.practice2_2 {
+	font-family: "Helvetica Neue", sans-serif;
+	width: 100%;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #191919;
+}
+.task_fourth {
+	background-color: #252525;
+	width: 255px;
+	height: 206px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	margin-bottom: 50px;
+}
+.task4_h3 {
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.275px;
+	text-transform: capitalize;
+	color: #ffffff;
+	padding-left: 24px;
+	padding-top: 24px;
+	margin-bottom: 24px;
+}
+.task4_img {
+	padding-left: 24px;
+	margin-bottom: 24px;
+}
+.task_fourth p {
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1625px;
+	color: rgba(255, 255, 255, 0.5);
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.task_five {
+	width: 350px;
+	min-height: 493px;
+	background-color: #252525;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+}
+.task5_img {
+	border-radius: 6px;
+	margin-bottom: 29px;
+}
+.task5_h3 {
+	padding-left: 30px;
+	font-size: 32px;
+	line-height: 30px;
+	color: #d9d9d9;
+}
+.task5_h4 {
+	padding-left: 30px;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: -0.15px;
+	color: #a4a8b2;
+	margin-bottom: 20px;
+}
+.task5_p {
+	padding-left: 30px;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1625px;
+	color: #85878c;
+	margin-bottom: 26px;
+	padding-right: 30px;
+}
+.task5_img2 {
+	padding-left: 30px;
+	padding-right: 25px;
+	padding-bottom: 28px;
+}
+.task5_button {
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 30px;
+	border: 2px solid #303030;
+	margin-bottom: 18px;
+}
+.task5_button:hover {
+	background-color: #34c759;
+}
+.task5_a {
+	display: block;
+	font-weight: 900;
+	font-size: 10px;
+	line-height: 40px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+}
+.task5_a:hover {
+	font-weight: 900;
+	font-size: 10px;
+	line-height: 40px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #252525;
+}
